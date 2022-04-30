@@ -1,0 +1,151 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+a,
+a:link,
+a:visited {
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+section,
+span,
+p {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+h5 {
+    font-size: 15px;
+    text-align: center;
+}
+
+.menuYazilari {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    background-color: #9974537a !important;
+}
+
+.girisResim {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.girisResim2 {
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 70px;
+}
+
+
+
+.hakkinda {
+    margin-bottom: 100px;
+}
+
+.hakkinda-baslik {
+    padding-top: 60px;
+}
+
+h2 {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h2::after {
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: black;
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+}
+
+.card {
+    border: none;
+    background-color: #f2f2f2;
+}
+
+.card:hover {
+    opacity: 0.8;
+}
+
+.hakkimdaYazi {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin: auto;
+}
+
+main {
+    padding-bottom: 100px;
+}
+
+section{
+    height: 1000px;
+     
+}
+
+.imgBox img{
+    
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+  
+}
+
+.sehrimKismi{
+    height: 1300px;
+}
+
+.sehrimYazi{
+    width: 60%;
+    margin: 60px auto;
+}
+
+.sehrimYazi p{
+   text-align: center;
+   font-family: 'Raleway', sans-serif;
+   font-size: 15px;
+   font-weight: bold;
+}
+
+.btn{
+    opacity: 0.8;
+}
+
+
+.sliderResim img{
+
+    height: 450px;
+    width: 800px;
+    object-fit: contain;
+}
+
+.sehrimKismi  button a{
+    text-decoration: none;
+    color: #fff;
+}
