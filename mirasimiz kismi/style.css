@@ -176,3 +176,9 @@ p{
 .miras section h3{
     text-align: center;
 }
+footer{
+    background-color: #3a2b1d7a;
+    text-align: center;
+    height: 30px;
+    width: 100%;
+}
