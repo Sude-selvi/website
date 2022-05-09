@@ -614,28 +614,7 @@
                 
             }
 
-            function temizle()
-            {
-                document.getElementById("aduyari").innerHTML="";
-                document.getElementById("soyaduyari").innerHTML="";
-                document.getElementById("mailuyari").innerHTML="";
-                document.getElementById("mesajuyari").innerHTML="";
-                document.getElementById("yasuyari").innerHTML="";
-                document.getElementById("sehiruyari").innerHTML="";
-                document.getElementById("cinsiyetuyari").innerHTML="";
-                document.getElementById("diluyari").innerHTML="";
-
-                document.getElementById("ad").value="";
-                document.getElementById("soyad").value="";
-                document.getElementById("mesaj").value="";
-                document.getElementById("mail").value="";
-                document.getElementById("yasiniz").value="Yaşınız";
-                document.getElementById("sehriniz").value="Şehir";
-
-                window.location.reload();
-                
-            }
-
+            
         </script>
 
         <article class="iletisimkismi">
@@ -723,7 +702,7 @@
                             <th scope="row"></th>
                             <td></td>
                             <td><input type="submit" value="Gönder" >
-                                 <input class="ms-4" type="button" value="Temizle" id="butonT" onclick="temizle()"></td>
+                                 <input class="ms-4" type="button" value="Temizle" id="butonT" onclick="window.location.reload(false)"></td>
                             <td></td>
                         </tr>
 
